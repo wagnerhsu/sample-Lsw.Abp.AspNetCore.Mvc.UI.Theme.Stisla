@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.web">
+<Project Sdk="Microsoft.NET.Sdk.web">
 
   <Import Project="..\configureawait.props" />
 
@@ -17,9 +17,9 @@
     <RepositoryUrl>https://github.com/liangshiw/Lsw.Abp.AspNetCore.Mvc.UI.Theme.Stisla</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>abp,abpvnext,theme</PackageTags>
-    <Version>1.7.1</Version>
+    <Version>1.7.2</Version>
     <AssemblyVersion>1.7.0.0</AssemblyVersion>
-    <FileVersion>1.7.1.0</FileVersion>
+    <FileVersion>1.7.2.0</FileVersion>
     <InformationalVersion>1.7.0.0</InformationalVersion>
   </PropertyGroup>
 
@@ -34,8 +34,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy" Version="4.0.2" />
-    <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared" Version="4.0.2" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy" Version="4.1.2" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared" Version="4.1.2" />
   </ItemGroup>
 
 </Project>
